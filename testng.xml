@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="smoke test" verbose="5"  parallel="tests" thread-count="10">
+  <test  name="instagram">
+    <classes>
+      <class name="com.selenium.testng.Instagram"/>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Test-facebook">
+    <classes>
+      <class name="com.selenium.testng.facebook"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- smoke test -->
